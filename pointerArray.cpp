@@ -20,7 +20,7 @@ int main() {
         cin >> cols;
     }
 
-    // Step 2: Dynamically allocate a 2-dimensional array
+    // Step 2: Dynamically allocate a two-dimensional array
     double** pPointer = new double*[rows]; // Allocate memory for rows
     for (int i = 0; i < rows; ++i) {
         pPointer[i] = new double[cols]; // Allocate memory for columns in each row
